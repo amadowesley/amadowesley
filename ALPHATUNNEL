@@ -91,7 +91,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SSL 200",
+      "Name": "CLARO SSL 2000",
       "FLAG": "claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[lf]Host: br1.spartanvpn.xyz[lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host: [host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Sec-WebSocket-Extensions: superspeed[lf][lf]",
       "SNI": "content.akross.com.br",
