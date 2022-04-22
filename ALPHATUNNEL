@@ -1,1 +1,104 @@
-E
+{
+  "Version": "1.0.2",
+  "ReleaseNotes": "NOVAS ATUALIZAÇÕES",
+  "UrlUpdate": "https://bitbin.it/ANeUgiGX/raw/",
+  "Sms": "",
+  "UrlContato": "https://wa.me/message/E2SIVQMJQOTSM1",
+  "UrlTermos": "https://kiritosshxd.github.io/Conecta4g_site/termos.html",
+  "CheckUser": "true",
+  "FormatCheck": "yyyymmdd",
+  "Udp": [
+    {
+      "Porta": "7300"
+    },
+    {
+      "Porta": "7400"
+    },
+    {
+      "Porta": "7500"
+    },
+    {
+      "Porta": "7600"
+    },
+    {
+      "Porta": "7700"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "ALPHA TUNNEL | PLUS",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "br1.spartanvpn.xyz",
+      "CheckUser": "http://exemplo01.dominio.xyz:2095/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+
+  ],
+  "Networks": [
+    
+    {
+      "Name": "VIVO PROXY 100",
+      "FLAG": "vivo",
+      "Payload": "GET wss://blog-staging.cloudflare.com [protocol][crlf]Host: [app_host][crlf]X-Forwarded-For: [app_host][crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "br1.spartanvpn.xyz",
+      "TlsIP": "br1.spartanvpn.xyz",
+      "ProxyIP": "104.16.19.94",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO SSL 100",
+      "FLAG": "vivo",
+      "Payload": "GET ws://blog-staging.cloudflare.com HTTP/1.1\nHost: br1.spartanvpn.xyz \nUpgrade: ws\n\n",
+      "SNI": "br1.spartanvpn.xyz",
+      "TlsIP": "br1.spartanvpn.xyz",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    }, 
+    {
+      "Name": "TIM SSL 100",
+      "FLAG": "tim",
+      "Payload": "GET ws://br1.spartanvpn.xyz HTTP/1.1\nHost: br1.spartanvpn.xyz \nUpgrade: ws\n\n",
+      "SNI": "br1.spartanvpn.xyz",
+      "TlsIP": "104.16.19.94",
+      "ProxyIP": "104.16.19.94",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM SSL 200",
+      "FLAG": "tim",
+      "Payload": "GET wss://m.timbancavirtual.com.br/ HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "m.timbancavirtual.com.br",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },    
+    {
+      "Name": "CLARO SSL 100",
+      "FLAG": "claro",
+      "Payload": "GET wss://mobilidade.cloud.caixa.gov.br? HTTP/1.0\r\nHost: br1.spartanvpn.xyz\r\nUpgrade: websocket\r\nConnection: Keep-Alive\nUser-Agent: [ua]\nReferer: \r\n\r\n",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO SSL 200",
+      "FLAG": "claro",
+      "Payload": "GET wss://content.akross.com.br HTTP/1.1[lf]Host: br1.spartanvpn.xyz[lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host: [host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Sec-WebSocket-Extensions: superspeed[lf][lf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "content.akross.com.br",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    }, 
+  ]
+}
